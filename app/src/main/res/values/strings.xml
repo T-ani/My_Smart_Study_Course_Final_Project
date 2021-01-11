@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart_Study_Course</string>
+    <string name="login_shared_preference">com.example.smart_study_course_login_shared_preference</string>
+    <string name="login_status_shared_preference">com.example.smart_study_course_login_status_shared_preference</string>
+    <string name="username">trueline</string>
+    <string name="password">solution</string>
+    <string name="title_activity_main__work">Main_Work</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

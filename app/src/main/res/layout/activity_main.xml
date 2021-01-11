@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="40dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:ems="10"/>
+
+
+    <EditText
+        android:id="@+id/email_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:hint="E-mail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/password_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:hint="Password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:ems="10"
+        android:layout_margin="12sp"
+        android:text="Log In"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/white"
+        android:background="@color/AppBlue"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/forgotten_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".45"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/AppBlue"
+        android:text="Forgotten Password?"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:ems="10"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="----------------------------or----------------------------"
+        android:autoSizeTextType="uniform"
+        android:textAlignment="center"
+        android:ems="10"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/btn_register2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:ems="10"
+        android:layout_margin="12sp"
+        android:text="Register"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/white"
+        android:background="@color/AppBlue"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:ems="10"/>
+
+
+
+
+
+
+
+</LinearLayout>

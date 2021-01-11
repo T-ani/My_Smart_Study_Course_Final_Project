@@ -1,0 +1,2200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:id="@+id/linear_layout_main_home_page">
+        <!--Home Page Start-->
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tani_home_page"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="Select Your Department"
+                app:titleTextColor="@color/white"
+                app:theme="@style/MyActionBarTheme"
+                app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:id="@+id/customized_tool_bar"
+                android:background="@color/blue"
+                />
+            <ListView
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="1dp"
+                android:id="@+id/department_list"/>
+
+        </LinearLayout>
+            <!--Home Page End-->
+        <!--CSE 2103 view end-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/page_CSE_2103_scroll_view">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorWhite">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:text="Neumerical Analysis"
+                        android:fontFamily="cursive"
+                        android:background="@color/blue"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:id="@+id/save_button"
+                        android:visibility="gone"
+                        android:layout_width="0dp"
+                        android:layout_weight=".3"
+                        android:layout_height="60dp"
+                        android:text="Save"
+                        android:fontFamily="cursive"
+                        android:background="@color/blue"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30sp"
+                        android:gravity="center"
+
+                        android:textAlignment="center"/>
+
+
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Modeling,Computers and Error Analysis"
+                    android:layout_margin="12dp"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25dp"
+                    android:fontFamily="cursive"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/check_box_1_cse_2103"
+                    android:background="@color/powderblue2"
+                    android:text="Mathematical Modeling and Engineering Problem Solving"
+                    />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Programming and Software"
+                    android:id="@+id/check_box_2_cse_2103"
+                    android:background="@color/powderblue2"
+                    android:layout_margin="12dp"
+                    />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:id="@+id/check_box_3_cse_2103"
+                    android:text="Approximations and Round-off Errors"
+                    android:background="@color/powderblue2"
+                    android:layout_margin="12dp"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:id="@+id/check_box_4_cse_2103"
+                    android:text="Truncation Errors and Taylor Series"
+                    android:background="@color/powderblue2"
+                    android:layout_margin="12dp"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Roots of Equations"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25dp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:text="Braketing Methods"
+                    android:layout_margin="12dp"
+                    android:background="@color/silver"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_5_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Bisection Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_6_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Method of False Position"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:text="Open Methods"
+                    android:layout_margin="12dp"
+                    android:background="@color/silver"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check_box_7_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Iteration Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_8_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Newton-Raphson Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_38_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Generalized Newton Raphson Method"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check_box_9_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Ramanujan's Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_10_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Secant Method"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:text="Roots of Polynomials"
+                    android:layout_margin="12dp"
+                    android:background="@color/silver"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check_box_11_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Method of Iteration"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_12_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Newton-Raphson Method"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Interpolation"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:id="@+id/check_box_13_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Forward Differences"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_14_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Backward Differences"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_15_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Central Differences"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_16_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Newton's Formulae for Interpolation"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_17_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss' Central Difference Formula (Forward)"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_18_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss' Central Difference Formula(Backward)"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_19_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Lagrange's Interpolation Formula"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Curve Fitting"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:id="@+id/check_box_20_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Fitting a Stright Line"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_21_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Multiple Linear Least Squres"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_22_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Linearization of Nonlinear Laws"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_23_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Curve Fitting by Polynomials"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_24_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Curve Fitting by Sum of Exponentials"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Neumerical Differentiation and Integration"
+                    android:layout_margin="12dp"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:fontFamily="cursive"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <CheckBox
+                    android:id="@+id/check_box_25_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Neumerical Differentiation"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_26_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Maximum and Minimum Values of a Tabulated Function"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_27_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Neumerical Integration"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_28_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Neumerical Double Integration"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Neumerical Linear Algebra"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:id="@+id/check_box_29_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss Elimination"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_30_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Necessity of Pivotiong"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_31_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss-Jordan Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_32_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Modification of Gauss Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_33_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Solution of Linear Sysytems-Iterative Method"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Ordinary Differential Equations"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:id="@+id/check_box_34_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Solution by Taylor Series"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_35_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Euler's Method"
+                    />
+                <CheckBox
+                    android:id="@+id/check_box_36_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Runge-Kutta Methods"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Optimization"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:id="@+id/check_box_37_cse_2103"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="One-Dimensional Unconstrained Optimization"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        <!--CSE 2103 view end-->
+
+        <!--Account View Start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:id="@+id/tani_account_view_page">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".8"
+                    android:background="@color/blue">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="15sp"
+                        android:text="Account Information"
+                        android:autoSizeTextType="uniform"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/white"
+                        android:background="@color/blue"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".2"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="18sp"
+                        android:textColor="@color/blue"
+                        android:text="Ishrat Zahan Tani"
+                        android:id="@+id/account_view_name"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:autoSizeTextType="uniform"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="18sp"
+                        android:textColor="@color/blue"
+                        android:text="taniruet@gmail.com"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:id="@+id/account_view_mail"
+                        android:autoSizeTextType="uniform"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="18sp"
+                        android:textColor="@color/blue"
+                        android:id="@+id/account_view_position"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:autoSizeTextType="uniform"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="25sp"
+                        android:textColor="@color/red"
+                        android:text="Log Out"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:autoSizeTextType="uniform"
+                        android:id="@+id/tani_log_out"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+            <!--Account View End-->
+
+        <!--CSE HOME PAGE START-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/TANI_CSE_HOME_PAGE"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.7"
+                android:background="@drawable/ban4"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/blue"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:id="@+id/CSE_2101_Course_Click_To_Have_Scroll_View"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/syllabus6"
+                    android:orientation="vertical"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"
+                            android:tint="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="CSE 2101"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:autoSizeTextType="uniform"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="CSE 2102"
+                        android:fontFamily="@font/sirin_stencil"                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:autoSizeTextType="uniform"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:id="@+id/TANI_CSE_2103_Click"
+                    android:background="@drawable/syllabus6"            android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="CSE 2103"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:autoSizeTextType="uniform"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/blue">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="CSE 2104"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:autoSizeTextType="uniform"
+                        android:textStyle="bold"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="CSE 2100"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textStyle="bold"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="EEE 2151"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textStyle="bold"
+                        android:autoSizeTextType="uniform"
+                        android:layout_marginBottom="12sp"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/blue">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="EEE 2152"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:gravity="center"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="MATH 2113"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textStyle="bold"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/syllabus6"
+                    android:layout_margin="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="3.5"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginTop="12sp"
+                            android:background="@drawable/ic_baseline_menu_book_24"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"/>
+
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="HUM 2113"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textStyle="bold"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--CSE HOME PAGE END-->
+        <!--Member page start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/registered_members_view_page"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/teacher_members_click"
+                android:text="Teachers"
+                android:textColor="@color/blue"
+                android:textSize="25dp"
+                android:fontFamily="@font/sirin_stencil"
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:fontFamily="@font/sirin_stencil"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Students"
+                android:id="@+id/student_member_click"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ListView
+                android:visibility="visible"
+                android:id="@+id/Teachers_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                />
+            <ListView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:id="@+id/Students_list_view"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Member page end-->
+
+        <!--CT syllabus page start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/course_ct_page_view"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".13"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Select Semester"
+                    android:textSize="30dp"
+                    android:background="@drawable/syllabus"
+                    android:gravity="center"
+                    android:fontFamily="@font/sirin_stencil"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/list_view_2_course_ct"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--CT syllabus page end-->
+        <!--CT syllabus page start to Course-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:id="@+id/couse_according_to_semester"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Select Course"
+                    android:textSize="30dp"
+                    android:background="@drawable/syllabus"
+                    android:gravity="center"
+                    android:fontFamily="@font/sirin_stencil"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="CSE\n2101"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="CSE\n2102"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/CSE_2103_CT_COURSE_CLICK"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="CSE\n2103"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="CSE\n2104"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="CSE\n2100"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EEE\n2151"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="EEE\n2152"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="MATH\n2113"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="HUM\n2113"
+                        android:autoSizeTextType="uniform"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sirin_stencil"
+                        android:textColor="@color/blue"
+                        android:layout_margin="12sp"
+                        android:gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--CT syllabus page start to Course-->
+
+
+        <!--CT syllabus Course Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/create_course_view_page_with_chapters"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Observe Course"
+                    android:id="@+id/Observe_Course"
+                    android:background="@color/white"
+                    android:textColor="@color/blue"
+                    android:fontFamily="@font/sirin_stencil"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="CT"
+                    android:id="@+id/CT"
+                    android:background="@color/blue"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sirin_stencil"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:orientation="horizontal"
+                android:id="@+id/Create_Ct_Syllabus">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Create Ct Syllabus"
+                    android:fontFamily="@font/sirin_stencil"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/AppBlue"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+          <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:id="@+id/ct_scroll_view"
+            android:visibility="visible"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Neumerical Analysis"
+                    android:fontFamily="cursive"
+                    android:layout_margin="12dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Modeling,Computers and Error Analysis"
+                    android:layout_margin="12dp"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25dp"
+                    android:fontFamily="cursive"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/CT_Check_Box_1"
+                    android:background="@color/powderblue2"
+                    android:text="Mathematical Modeling and Engineering Problem Solving"
+                    />
+
+                <CheckBox
+
+                    android:id="@+id/CT_Check_Box_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Programming and Software" />
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Approximations and Round-off Errors"
+                    android:id="@+id/CT_Check_Box_3"
+
+                    android:background="@color/powderblue2"
+                    android:layout_margin="12dp"/>
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Truncation Errors and Taylor Series"
+                    android:background="@color/powderblue2"
+                    android:id="@+id/CT_Check_Box_4"
+                    android:layout_margin="12dp"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Roots of Equations"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25dp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:text="Braketing Methods"
+                    android:layout_margin="12dp"
+                    android:background="@color/silver"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/CT_Check_Box_5"
+                    android:background="@color/powderblue2"
+                    android:text="Bisection Method"
+                    />
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/CT_Check_Box_6"
+                    android:background="@color/powderblue2"
+                    android:text="Method of False Position"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:text="Open Methods"
+                    android:layout_margin="12dp"
+                    android:background="@color/silver"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/CT_Check_Box_7"
+                    android:background="@color/powderblue2"
+                    android:text="Iteration Method"
+                    />
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/CT_Check_Box_8"
+                    android:background="@color/powderblue2"
+                    android:text="Newton-Raphson Method"
+                    />
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/CT_Check_Box_9"
+                    android:background="@color/powderblue2"
+                    android:text="Generalized Newton Raphson Method"
+                    />
+
+                <CheckBox
+                    android:id="@+id/CT_Check_Box_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Ramanujan's Method"
+                    />
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Secant Method"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:text="Roots of Polynomials"
+                    android:layout_margin="12dp"
+                    android:background="@color/silver"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Method of Iteration"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Newton-Raphson Method"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Interpolation"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Forward Differences"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Backward Differences"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Central Differences"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Newton's Formulae for Interpolation"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss' Central Difference Formula (Forward)"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss' Central Difference Formula(Backward)"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Lagrange's Interpolation Formula"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Curve Fitting"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Fitting a Stright Line"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Multiple Linear Least Squres"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Linearization of Nonlinear Laws"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Curve Fitting by Polynomials"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Curve Fitting by Sum of Exponentials"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Neumerical Differentiation and Integration"
+                    android:layout_margin="12dp"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:fontFamily="cursive"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Neumerical Differentiation"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Maximum and Minimum Values of a Tabulated Function"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Neumerical Integration"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Neumerical Double Integration"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Neumerical Linear Algebra"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss Elimination"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Necessity of Pivotiong"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Gauss-Jordan Method"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Modification of Gauss Method"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Solution of Linear Sysytems-Iterative Method"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Ordinary Differential Equations"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Solution by Taylor Series"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Euler's Method"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="Runge-Kutta Methods"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Optimization"
+                    android:layout_margin="12dp"
+                    android:fontFamily="cursive"
+                    android:background="@color/corn_flower_blue"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_margin="12dp"
+                    android:background="@color/powderblue2"
+                    android:text="One-Dimensional Unconstrained Optimization"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="15sp"
+                android:id="@+id/CT_LIST_VIEW"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <!--CT syllabus Course end-->
+
+        <!--Notification View Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:id="@+id/notification_view_page"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/sirin_stencil"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Notifications"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ListView
+                    android:id="@+id/notification_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--Notification View End-->
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:background="@color/white"
+            android:weightSum="5"
+            >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tani_2_click1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:layout_weight="2"
+                android:background="@drawable/ic_baseline_home_24"
+                android:backgroundTint="@color/blue" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/list_course_ct_click">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="6dp"
+                android:background="@drawable/ic_baseline_list_alt_24"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/notification_click_button"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="6dp"
+                android:background="@drawable/ic_baseline_notifications_24"
+                android:backgroundTint="@color/blue"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/round_view"
+                        android:background="@drawable/notification_colour_red"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:layout_marginTop="0dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="+"
+                                android:textStyle="bold"
+                                android:textSize="10dp"
+                                android:layout_gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                />
+                            </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.3">
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/teachers_class_mates_click"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="6dp"
+                android:background="@drawable/ic_baseline_people_alt_24"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tani_2_click2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="6dp"
+                android:background="@drawable/ic_baseline_account_circle_24"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

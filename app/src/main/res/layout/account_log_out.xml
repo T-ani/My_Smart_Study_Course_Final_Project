@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/blue">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:text="Account Information"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:textColor="@color/white"
+            android:background="@color/blue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18sp"
+            android:textColor="@color/blue"
+            android:text="Ishrat Zahan Tani"
+            android:fontFamily="cursive"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/account_name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18sp"
+            android:textColor="@color/blue"
+            android:text="taniruet@gmail.com"
+            android:fontFamily="cursive"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/email_name_for_showing"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18sp"
+            android:textColor="@color/blue"
+            android:text="-----------------------------------"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25sp"
+            android:textColor="@color/red"
+            android:text="Log Out"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/logging_out"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+</LinearLayout>

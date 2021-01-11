@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_view_cse_2101">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/blue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/blue"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Discreate Mathematics"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Propositional Logic"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Syntax"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Semantics"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Valid, Satisfiable and Unsatisfiable Formulas"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"                    android:background="@color/powderblue2"
+
+                android:text="Encoding and Examining the Validity of Some Logical Arguments"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+
+                android:text="Predicate and Quantifier"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Universal and Existential Quantification"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Modus Ponens and Modus Tollens"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Proof Techniques"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+
+                android:text="The Structure of Formal Proofs"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Direct Proofs"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Proof by Counter"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Proof by Contraposition"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Proof by Contradiction"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Mathematical Induction"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Proof of Necessity and Sufficiency"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Set"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textAlignment="center"/>
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Operations on Sets, Algebraic Properties of Set"
+                />
+
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Computer Representation of Set"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Cantor's Diagonal Argument and the Power Set Theorem"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Schroeder-Bernstein Theorem"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Relation"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Property of Relation"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Binary Relations"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Partial Ordering Relations"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Equivalence Relations"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Algorithms,the Integers and Matrices"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Algorithm"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="The Growth of Function"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Complexity of Algorothms"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="The Intergers and Divisors"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Prime and Greatest Common Divisors"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Integers and Algorithms"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Applications and Number Theory"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Matrices"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Introduction to Counting"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Basic Counting Techniques - Inclusion and Exclusion"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Pigeon-Hole Principle"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Permutation"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Combination"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Sequence and Summations"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Introduction to Recurrence Relation and Generating Function"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Function"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Type of Functions"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Growth of Functions"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Number Theory"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Theorem of Arithmetic"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Modular Arithmetic"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="GCD, LCM, Prime Number"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Congruence"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Application of Congruence"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Application of Number Theory"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Chinese Remainder Theory"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Introduction to Graphs"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Graphs and their Basic Properties - Degree, Path, Cycle"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Sub-Graphs"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Isomorphism"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Euclidian and Hamiltonian Walks"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Graph Coloring"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Planar Graphs"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

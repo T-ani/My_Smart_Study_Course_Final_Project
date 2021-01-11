@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Neumerical Analysis"
+                android:fontFamily="cursive"
+                android:layout_margin="12dp"
+                android:background="@color/blue"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Modeling,Computers and Error Analysis"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25dp"
+                android:fontFamily="cursive"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textAlignment="center"/>
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Mathematical Modeling and Engineering Problem Solving"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Programming and Software"
+                android:background="@color/powderblue2"
+                android:layout_margin="12dp"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Approximations and Round-off Errors"
+                android:background="@color/powderblue2"
+                android:layout_margin="12dp"/>
+
+            <CheckBox
+                android:id="@+id/tr"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Truncation Errors and Taylor Series"
+                android:background="@color/powderblue2"
+                android:layout_margin="12dp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Roots of Equations"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25dp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Braketing Methods"
+                android:layout_margin="12dp"
+                android:background="@color/silver"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Bisection Method"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Method of False Position"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Open Methods"
+                android:layout_margin="12dp"
+                android:background="@color/silver"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Iteration Method"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Newton-Raphson Method"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Generalized Newton Raphson Method"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Ramanujan's Method"
+                />
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Secant Method"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Roots of Polynomials"
+                android:layout_margin="12dp"
+                android:background="@color/silver"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+
+            <CheckBox
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Method of Iteration"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Newton-Raphson Method"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Interpolation"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Forward Differences"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Backward Differences"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Central Differences"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Newton's Formulae for Interpolation"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Gauss' Central Difference Formula (Forward)"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Gauss' Central Difference Formula(Backward)"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Lagrange's Interpolation Formula"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Curve Fitting"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Fitting a Stright Line"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Multiple Linear Least Squres"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Linearization of Nonlinear Laws"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Curve Fitting by Polynomials"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Curve Fitting by Sum of Exponentials"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Neumerical Differentiation and Integration"
+                android:layout_margin="12dp"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:fontFamily="cursive"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Neumerical Differentiation"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Maximum and Minimum Values of a Tabulated Function"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Neumerical Integration"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Neumerical Double Integration"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Neumerical Linear Algebra"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Gauss Elimination"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Necessity of Pivotiong"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Gauss-Jordan Method"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Modification of Gauss Method"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Solution of Linear Sysytems-Iterative Method"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Ordinary Differential Equations"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Solution by Taylor Series"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Euler's Method"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="Runge-Kutta Methods"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Optimization"
+                android:layout_margin="12dp"
+                android:fontFamily="cursive"
+                android:background="@color/corn_flower_blue"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAlignment="center"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@color/powderblue2"
+                android:text="One-Dimensional Unconstrained Optimization"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
